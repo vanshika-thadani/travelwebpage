@@ -1,0 +1,152 @@
+.page-footer {
+    width: 1280px;
+    height: 280px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 48px;
+    background-color: url(https://technext.github.io/jadoo/v1.0.0/assets/img/hero/hero-bg.svg);
+    background-position: 150% 0;
+}
+
+.fivegrid {
+    width: 1280px;
+    height: 169.771px;
+    display: flex;
+    grid-auto-columns: 1fr;
+    row-gap: 16px;
+    grid-template-columns: 0.7fr 0.7fr 0.7fr;
+    grid-template-rows: auto;
+    box-sizing: border-box;
+}
+
+.col {
+    width: 300px;
+    height: 1.771px;
+}
+
+.head-jadoo {
+    display: block;
+    width: 250px;
+    height: 68.396px;
+    font-family: sans-serif;
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.1;
+    box-sizing: border-box;
+    display: block;
+
+}
+
+.col-1-content {
+    width: 300px;
+    height: 39px;
+    color: #5e6282;
+    font-size: 1.125rem;
+    box-sizing: border-box;
+    display: block;
+    font-family: sans-serif;
+}
+
+.subhead {
+    margin-bottom: 32px;
+    width: 200px;
+    height: 19px;
+    margin-top: 1.3rem;
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1.1;
+    display: block;
+
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    box-sizing: border-box;
+}
+
+.footer-links {
+    font-family: sans-serif;
+    color: #5e6282;
+    font-size: 1.125rem;
+    line-height: 1.8;
+    text-decoration: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    transition: border 0.15ms ease;
+}
+
+.social-links {
+    width: 300px;
+    height: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    -webkit-box-align: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.single-social-link {
+    width: 41px;
+    height: 41px;
+    max-width: 100%;
+    display: inline-block;
+    color: inherit;
+    text-decoration: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    margin-right: 20px;
+    vertical-align: middle;
+    overflow-clip-margin: content-box;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.discover {
+    width: 300px;
+    height: 27.198px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-family: sans-serif;
+    color: #5e6282;
+    line-height: 1.7;
+    text-align: left;
+    display: block;
+    
+}
+
+.downloadfrom {
+    display: inline-block;
+    width: 184px;
+    height: 35px;
+}
+
+.store-img {
+    display: inline-block;
+    max-width: 100%;
+    object-fit: contain;
+    vertical-align: middle;
+    width: 90px;
+    height: 35px;
+    cursor: pointer;
+
+}
+
+.copyright {
+    width: 1280px;
+    display: block;
+    position: absolute;
+    top: 5000px;
+    height: 21px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    color: #5e6282;
+    font-size: 0.875rem;
+    text-align: center;
+    box-sizing: border-box;
+
+}

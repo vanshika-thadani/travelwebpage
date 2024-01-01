@@ -1,0 +1,23 @@
+.sponsor{
+    
+    width: 1280px;
+    height: 300px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.fivecolumns{
+    
+    width: 1280px;
+    height: 169.771px;
+    display: grid;
+    grid-auto-columns: 1fr;
+    row-gap: 16px;
+    grid-template-columns: 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr;
+    grid-template-rows: auto;
+    box-sizing: border-box;
+}
+.spons{
+   padding:1rem 1rem 1rem 1rem;
+    justify-self: center;
+    align-self: center;
+}

@@ -1,0 +1,111 @@
+.page4{
+    width:1280px;
+    height:619px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin-left:40px;
+    margin-right: 40px;
+}
+.leftright{
+    height:619px;
+    display:grid;
+    grid-auto-columns: 1fr;
+    column-gap: 16px;
+    row-gap: 16px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+.left{
+    width:645px;
+    height:600.375px;
+}
+.leftheading{
+    width:632px;
+    height:150px;
+    padding:30px;
+    margin-bottom:30px;
+}
+.leftheading1{
+    width:632px;
+    height:27px;
+    font-family:sans-serif;
+    color:#5e6282;
+    font-size:1.5rem;
+    box-sizing: border-box;
+    display:block;
+    text-align: left;
+    line-height: 1.5;
+    padding:10px;
+
+}
+.leftheading2{
+    font-family: sans-serif;
+    color:#181e4b;
+    font-size:3.125rem;
+    line-height:1.1;
+    box-sizing: border-box;
+    margin-bottom:20px;
+}
+.option{
+    width:632px;
+    height:99.792px;
+    margin-bottom:32px;
+    display:flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+
+}
+.icon{
+    display:inline-block;
+    margin-right: 1.2rem;
+    vertical-align: middle;
+    overflow: clip;
+}
+.option-discription{
+  width:632px;
+  height:80px;
+  max-width: 70%;
+
+}
+.option-description-heading{
+    width:442px;
+    height:33px;
+    font-family:sans-serif;
+    color:#5e6282;
+    font-size:1.5rem;
+    line-height:1.3rem;
+    box-sizing: border-box;
+    display:block;
+    margin:0;
+}
+.content{
+    width:442px;
+    height:37px;
+    font-family:sans-serif;
+    color:#5e6282;
+    line-height:1.7;
+    box-sizing: border-box;
+    display: block;
+    font-size: 1.1rem;
+}
+.right{
+    width:510px;
+    position:relative;
+    box-sizing: border-box;
+    display:block;
+}
+.trip-to-greece-img{
+    width:23.125rem;
+    height:25rem;
+    position:absolute;
+    left:auto;
+    top:17%;
+    right:17%;
+    bottom:auto;
+    z-index:10;
+    object-fit:cover;
+    vertical-align: middle;
+    overflow-clip-margin: content-box;
+overflow: clip;
+}

@@ -1,0 +1,123 @@
+.page3{
+    width:1280px;
+    height:619px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin-left:40px;
+    margin-right: 40px;
+}
+.topselling-heading{
+    display:block;
+    width:1280px;
+    height:25px;
+}
+.topselling{
+    color:#525a98;
+    font-style: bold;
+    font-size:23px;
+    box-sizing: border-box;
+    text-align:center;
+    font-family: sans-serif;
+}
+.topdestination-heading{
+    display:block;
+    width:1280px;
+    height:60px;
+    margin-bottom: 15px;
+}
+.topdestination{
+    font-size:50px;
+    font-family: sans-serif;
+    color:#181e4b;
+    font-style: bold;
+    line-height: 1.1;
+    box-sizing: border-box;
+    text-align: center;
+}
+.fourboxes{
+    width:1280px;
+    height:473px;
+    margin-top: 20px;
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.desti-box{
+    width:350px;
+    height:420px;
+    overflow: hidden;
+    
+}
+.desti-box-img{
+    display:block;
+    width:386.667;
+    object-fit: cover;  
+    cursor:pointer;
+}
+
+.desti-box-img:hover{
+    transform: scale(1.3);
+    filter:drop-shadow(0%);
+}
+.below-img{
+    width:346.667px;
+    height:69px;
+    padding:20px 32px 20px 20px;
+    display:block;
+    cursor:pointer;
+   
+}
+.name-prize{
+    height:27px;
+    width:346.667px;
+    display:flex;
+    margin-top: 15px;
+margin-bottom:10px ;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    box-sizing:border-box;
+    color:inherit;
+    cursor:pointer;
+    line-height:1.5;
+
+}
+.box-name{
+    width:100.28px;
+    height:27px;
+    font-family:sans-serif;
+    color:#5e6282;
+    font-size: 1.125rem;
+    
+}
+.box-prize{
+    width:100px;
+    height:27px;
+    font-family: sans-serif;
+    color:#536282;
+    font-size: 1.125rem;
+}
+.daystrip{
+    width:346.66px;
+     height:24px;
+     display:flex;
+     flex-wrap: wrap;
+}
+.arrow{
+    width:20px;
+    height:24px;
+    display:inline-block;
+    max-width:100%;
+    vertical-align:middle;
+    overflow:clip;
+
+    
+
+}
+.numberofdays{
+    width:93.729px;
+    height:24px;
+    font-family: sans-serif;
+    color:#5e6282;
+    
+}
